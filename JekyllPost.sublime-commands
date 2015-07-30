@@ -1,0 +1,34 @@
+[
+    {
+        "caption": "Jekyll Post: Create",
+        "command": "jekyll_post"
+    },
+    {
+        "caption": "Jekyll Post: Rename",
+        "command": "jekyll_post",
+        "args": {
+            "type" : "rename"
+        }
+    },
+    {
+        "caption": "Jekyll Post: Delete",
+        "command": "jekyll_post",
+        "args": {
+            "type" : "delete"
+        }
+    },
+    {
+        "caption": "Jekyll Post: To Drafts",
+        "command": "jekyll_post",
+        "args": {
+            "type" : "drafts"
+        }
+    },
+    {
+        "caption": "Jekyll Post: To Posts",
+        "command": "jekyll_post",
+        "args": {
+            "type" : "posts"
+        }
+    }
+]

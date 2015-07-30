@@ -1,0 +1,30 @@
+{
+    // 搜索posts的目录
+	"searchFolder" : "_posts",
+    // 默认生成的文件后缀
+	"fileExt" : "md",
+    //草稿箱位置,默认与"searchFolder"同级目录
+    "drafts" : "_drafts",
+    // 默认生成的模板
+    // ${{title}},${{categories}},${{tags}} 根据文件(除了日期)名称智能生成的内容
+    "template" : [
+        "---",
+        "layout:     post",
+        "title:      ${{title}}",
+        "date:       ${{date:%Y-%m-%d %H:%M:%S}}",
+        "categories: ${{categories}}",
+        "tags:       ${{tags}}",
+        "author:     RonGL",
+        "blog:       http://rongl.github.io/blog",
+        "---"
+    ],
+    //以文件名称(除了日期)匹配生成的categories,如果不存在则由文件名称生成
+    "categories" : {
+        "sublime" : "tools",
+        "git" : "docs",
+        "python": "program"
+    }
+
+
+
+}

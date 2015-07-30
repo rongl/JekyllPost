@@ -1,0 +1,7 @@
+[
+	{ "keys": ["super+j","super+n"], "command": "jekyll_post" },
+    { "keys": ["super+j","super+r"], "command": "jekyll_post" ,"args": {"type" : "rename"}},
+	{ "keys": ["super+j","super+d"], "command": "jekyll_post" ,"args": {"type" : "delete"}},
+    { "keys": ["super+j","super+m"], "command": "jekyll_post" ,"args": {"type" : "drafts"}},
+    { "keys": ["super+j","super+p"], "command": "jekyll_post" ,"args": {"type" : "posts"}}
+]
